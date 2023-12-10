@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<style>
+    body {
+    background-image: url('../static/recorrido\ blog.jpg'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center; /* Centra la imagen en el fondo */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+}
+
+p {
+    text-align: justify;
+}
+
+</style>
+<body>
+    
+    <div class="container border text-center">
+        <div class="row justify-content-cente">
+            <div class="card " style="width: 30rem;">
+                <img src="../static/waifupy_header.png" class="card-img-top" alt="C" width="50px" height="350px">
+                <div class="card-body">
+                    <h5 class="card-title">Busqueda tabu</h5>
+                    <p class="card-text">
+                       XdXDXDXDXD
+                    </p>
+                    <form action="{{ url_for('resultado') }}">
+                        <input type="submit" class="btn gap-2  btn-outline-primary btn-lg"  value="Enviar">
+                    </form>  
+                </div>
+                </div>
+            
+
+            
+
+        
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
